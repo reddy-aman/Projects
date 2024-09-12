@@ -29,6 +29,14 @@ use for Template Based Region Selection Tesseract.js is an OCR (Optical Characte
 
 CDN Link : <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1/dist/tesseract.min.js"></script>
 
+
+# change below 
+
+$servername = "localhost";
+$db = 'pdf_db'; 
+$username = "database_username";
+$password = "database_password";
+
 # Steps to Run
 
 1. Clone the repository.
