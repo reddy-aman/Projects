@@ -31,15 +31,16 @@ CDN Link : <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1/dist/tes
 
 # Steps to Run
 
-1.Clone the repository.
-2.If PHP is not installed, you need to install it.
-3.If MySQL is not installed, you need to install it.
-4.If the Apache2 server is not installed, you need to install it.
-5.If phpMyAdmin is not set up, you need to set it up. After that, log in to phpMyAdmin with your login credentials.
-6.Create a database named "pdf_db".
-7.Import the pdf_db.sql file into the database.
-8.As an alternate method to import, if you are using Linux, first navigate to the directory where pdf_db.sql is downloaded, and run the command sudo mysql -u database_username -p pdf_db < pdf_db.sql. After that, enter your MySQL database user password.
-9.To serve the project using the Apache2 server, copy the project folder into the /var/www/html directory.
-10.Check the project folder ownership using ls -l. If the owner is root, change ownership using sudo chown linux_username:linux_username /var/www/html/Project.
-11.Open your browser, type http://localhost/Project and hit enter. You will see the project output.
-12.Upload the sample PDF provided in the cloned project and test the functionalities.
+1. Clone the repository.
+2. If PHP is not installed, you need to install it.
+3. If MySQL is not installed, you need to install it.
+4. If the Apache2 server is not installed, you need to install it.
+5. If phpMyAdmin is not set up, you need to set it up. After that, log in to phpMyAdmin with your login credentials.
+6. Create a database named "pdf_db".
+7. Import the pdf_db.sql file into the database.
+8. As an alternate method to import, if you are using Linux, first navigate to the directory where pdf_db.sql is downloaded, and run the command sudo mysql -u database_username -p pdf_db < pdf_db.sql. After that, enter your MySQL database user password.
+9. To serve the project using the Apache2 server, copy the project folder into the /var/www/html directory.
+10. Check the project folder ownership using ls -l. If the owner is root, change ownership using sudo chown linux_username:linux_username /var/www/html/Project.
+11. Open your browser, type http://localhost/Project and hit enter. You will see the project output.
+12. Upload the sample PDF provided in the cloned project and test the functionalities.
+
